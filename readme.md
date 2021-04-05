@@ -31,7 +31,7 @@ npm run dev
 # Unable to do:
 ```
 DELETE : Validating an  event with existing attendance have issue on length properties although attendance is present
-
+```
 # NOTES:
 ```
 ##For dates mongo db return the exact value in the db which have th local time zone from the server. 
