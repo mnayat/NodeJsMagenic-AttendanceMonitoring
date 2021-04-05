@@ -1,0 +1,1251 @@
+POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Node JS Training","eventtype":"Magenic Master","startdate":"2021-10-18T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Node JS Training","eventtype":"Magenic Master","startdate":"2021-10-18T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 1:15:18 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-30T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-30T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 1:16:20 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-30T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-30T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 1:18:32 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-30T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-30T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 1:20:41 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-30T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-30T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 1:22:13 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-30","enddate":"2021-10-18"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-30","enddate":"2021-10-18"} 
+
+4/5/2021 - 1:26:03 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-30T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-30T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 1:29:01 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 1:29:17 PM POST 
+ http://localhost:5000/api/members 
+    request body: {"name":"John Doe","joinedate":"","status":"active"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"name":"John Doe","joinedate":"","status":"active"} 
+
+4/5/2021 - 1:30:41 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 1:30:59 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 1:35:06 PM GET 
+ http://localhost:5000/api/members 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 1:35:12 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aa02ddc32440650ee34d4","members":"606aa081dae4ca288c0d47ee","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aa02ddc32440650ee34d4","members":"606aa081dae4ca288c0d47ee","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 1:35:47 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 1:35:58 PM GET 
+ http://localhost:5000/api/members 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 1:36:02 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 1:47:08 PM GET 
+ http://localhost:5000/api/members 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 1:47:14 PM DELETE 
+ http://localhost:5000/api/members 
+    request body: {"_id":"606aa081dae4ca288c0d47ee"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606aa081dae4ca288c0d47ee"} 
+
+4/5/2021 - 1:58:20 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 2:04:10 PM POST 
+ http://localhost:5000/api/members 
+    request body: {"name":"John Doe","joinedate":"","status":"active"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"name":"John Doe","joinedate":"","status":"active"} 
+
+4/5/2021 - 2:10:16 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 2:12:57 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 2:13:38 PM POST 
+ http://localhost:5000/api/members 
+    request body: {"name":"John Doe","joinedate":"","status":"active"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"name":"John Doe","joinedate":"","status":"active"} 
+
+4/5/2021 - 2:13:46 PM GET 
+ http://localhost:5000/api/members 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 2:13:51 PM GET 
+ http://localhost:5000/api/members 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 2:14:18 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 2:14:36 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:14:52 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:15:49 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:17:35 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:18:11 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:19:12 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:20:31 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:21:51 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:22:23 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 2:23:07 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 2:23:41 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:23:48 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:24:36 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:24:56 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:25:22 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:26:13 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:26:46 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:27:48 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaa6998a0b70f0465953d","members":"606aaa9a98a0b70f0465953e","timein":"2021-04-18T18:00:00","timeout":""} 
+
+4/5/2021 - 2:28:48 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 2:31:18 PM POST 
+ http://localhost:5000/api/members 
+    request body: {"name":"John Doe","joinedate":"","status":"active"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"name":"John Doe","joinedate":"","status":"active"} 
+
+4/5/2021 - 2:31:29 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaeb6cb51ba05ec768032","members":"606aaec1cb51ba05ec768033","timein":"2021-10-01T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaeb6cb51ba05ec768032","members":"606aaec1cb51ba05ec768033","timein":"2021-10-01T18:00:00","timeout":""} 
+
+4/5/2021 - 2:32:02 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaeb6cb51ba05ec768032","members":"606aaec1cb51ba05ec768033","timein":"2021-10-01T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaeb6cb51ba05ec768032","members":"606aaec1cb51ba05ec768033","timein":"2021-10-01T18:00:00","timeout":""} 
+
+4/5/2021 - 2:32:18 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606aaeb6cb51ba05ec768032","members":"606aaec1cb51ba05ec768033","timein":"2021-10-01T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606aaeb6cb51ba05ec768032","members":"606aaec1cb51ba05ec768033","timein":"2021-10-01T18:00:00","timeout":""} 
+
+4/5/2021 - 2:35:16 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 2:39:03 PM POST 
+ http://localhost:5000/api/members 
+    request body: {"name":"John Doe","joinedate":"","status":"active"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"name":"John Doe","joinedate":"","status":"active"} 
+
+4/5/2021 - 2:43:46 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 2:44:18 PM GET 
+ http://localhost:5000/api/members 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 2:44:34 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606ab087b61d9a389851eaf2","members":"606ab1a274a1314b94c5afab","timein":"2021-10-01T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606ab087b61d9a389851eaf2","members":"606ab1a274a1314b94c5afab","timein":"2021-10-01T18:00:00","timeout":""} 
+
+4/5/2021 - 2:45:25 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 2:45:36 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 2:49:38 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 2:49:51 PM POST 
+ http://localhost:5000/api/members 
+    request body: {"name":"John Doe","joinedate":"","status":"active"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"name":"John Doe","joinedate":"","status":"active"} 
+
+4/5/2021 - 2:50:18 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606ab30240bd860d183fbc8c","members":"606ab32a40bd860d183fbc8d","timein":"2021-10-01T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606ab30240bd860d183fbc8c","members":"606ab32a40bd860d183fbc8d","timein":"2021-10-01T18:00:00","timeout":""} 
+
+4/5/2021 - 2:50:56 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Angular JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 3:00:48 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:01:33 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:01:56 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:02:40 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:05:49 PM GET 
+ http://localhost:5000/api/members 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:06:32 PM POST 
+ http://localhost:5000/api/members 
+    request body: {"name":"John Doe","joinedate":"","status":"active"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"name":"John Doe","joinedate":"","status":"active"} 
+
+4/5/2021 - 3:06:38 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:06:55 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606ab5a0a49ebf1b64d63adc","members":"606ab6fe7b445b15ecdff95b","timein":"2021-10-01T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606ab5a0a49ebf1b64d63adc","members":"606ab6fe7b445b15ecdff95b","timein":"2021-10-01T18:00:00","timeout":""} 
+
+4/5/2021 - 3:07:06 PM GET 
+ http://localhost:5000/api/members 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:07:13 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:08:22 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:09:06 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:09:35 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:10:21 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:10:48 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:11:47 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:12:31 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:13:06 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:14:43 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:20:43 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:21:02 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:22:59 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:23:12 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:28:57 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:30:34 PM GET 
+ http://localhost:5000/api/members 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:30:39 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:31:10 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Node JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Node JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 3:32:39 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:32:49 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606abd17e46d0a0fccc777e4"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606abd17e46d0a0fccc777e4"} 
+
+4/5/2021 - 3:33:14 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:33:28 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606abd17e46d0a0fccc777e4"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606abd17e46d0a0fccc777e4"} 
+
+4/5/2021 - 3:34:23 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606abd17e46d0a0fccc777e4"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606abd17e46d0a0fccc777e4"} 
+
+4/5/2021 - 3:35:24 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606abd17e46d0a0fccc777e4"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606abd17e46d0a0fccc777e4"} 
+
+4/5/2021 - 3:35:50 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606abd17e46d0a0fccc777e4"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606abd17e46d0a0fccc777e4"} 
+
+4/5/2021 - 3:36:35 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606abd17e46d0a0fccc777e4"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606abd17e46d0a0fccc777e4"} 
+
+4/5/2021 - 3:37:55 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606abd17e46d0a0fccc777e4"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606abd17e46d0a0fccc777e4"} 
+
+4/5/2021 - 3:38:48 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:38:51 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ab5a0a49ebf1b64d63adc"} 
+
+4/5/2021 - 3:39:01 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:39:13 PM GET 
+ http://localhost:5000/api/members 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:39:29 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Node JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Node JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 3:41:02 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606abf0ed892de3d80401d85"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606abf0ed892de3d80401d85"} 
+
+4/5/2021 - 3:41:13 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Node JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Node JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 3:41:21 PM POST 
+ http://localhost:5000/api/members 
+    request body: {"name":"John Doe","joinedate":"","status":"active"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"name":"John Doe","joinedate":"","status":"active"} 
+
+4/5/2021 - 3:41:26 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:41:38 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606abf21d892de3d80401d86","members":"606abf26d892de3d80401d87","timein":"2021-10-01T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606abf21d892de3d80401d86","members":"606abf26d892de3d80401d87","timein":"2021-10-01T18:00:00","timeout":""} 
+
+4/5/2021 - 3:41:48 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:41:54 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606abf0ed892de3d80401d85"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606abf0ed892de3d80401d85"} 
+
+4/5/2021 - 3:41:59 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:42:08 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606abf26d892de3d80401d87"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606abf26d892de3d80401d87"} 
+
+4/5/2021 - 3:42:22 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:42:29 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606abf21d892de3d80401d86"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606abf21d892de3d80401d86"} 
+
+4/5/2021 - 3:42:39 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Node JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Node JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 3:43:55 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606abf21d892de3d80401d86"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606abf21d892de3d80401d86"} 
+
+4/5/2021 - 3:43:59 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:44:02 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606abfbb38144c219c97bc39"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606abfbb38144c219c97bc39"} 
+
+4/5/2021 - 3:44:14 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606abfbb38144c219c97bc39","members":"606abf26d892de3d80401d87","timein":"2021-10-01T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606abfbb38144c219c97bc39","members":"606abf26d892de3d80401d87","timein":"2021-10-01T18:00:00","timeout":""} 
+
+4/5/2021 - 3:44:39 PM GET 
+ http://localhost:5000/api/members 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:44:51 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"Node JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"Node JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 3:45:05 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:45:13 PM POST 
+ http://localhost:5000/api/attendance 
+    request body: {"event":"606ac00138144c219c97bc3b","members":"606abf26d892de3d80401d87","timein":"2021-10-01T18:00:00","timeout":""} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"event":"606ac00138144c219c97bc3b","members":"606abf26d892de3d80401d87","timein":"2021-10-01T18:00:00","timeout":""} 
+
+4/5/2021 - 3:45:27 PM GET 
+ http://localhost:5000/api/events 
+    request body: {} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {} 
+
+4/5/2021 - 3:48:01 PM POST 
+ http://localhost:5000/api/events 
+    request body: {"eventname":"React JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"eventname":"React JS Training","eventtype":"Magenic Master","startdate":"2021-10-01T18:00:00","enddate":"2021-10-18T13:00:00"} 
+
+4/5/2021 - 3:48:13 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ac0bdeaec914c581beb48"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ac0bdeaec914c581beb48"} 
+
+4/5/2021 - 3:48:23 PM DELETE 
+ http://localhost:5000/api/events 
+    request body: {"_id":"606ac0bdeaec914c581beb48"} 
+    
+ request params : {} 
+    
+ request query params : {}
+    
+ response body: {"_id":"606ac0bdeaec914c581beb48"} 
+
+4/5/2021 - 3:49:04 PM 

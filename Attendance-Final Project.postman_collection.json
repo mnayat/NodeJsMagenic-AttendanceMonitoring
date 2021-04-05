@@ -1,0 +1,492 @@
+{
+	"info": {
+		"_postman_id": "e1c06f71-65f3-4aee-afd4-3c64209a77d9",
+		"name": "Attendance-Final Project",
+		"description": "Backend API  for attendance monitoring for small event",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "events",
+			"item": [
+				{
+					"name": "Get All Events",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_Attendance}}/api/events",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"events"
+							]
+						},
+						"description": "Return all Events"
+					},
+					"response": []
+				},
+				{
+					"name": "Create new Events",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "JSON Type",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"eventname\": \"Node JS Training\",\r\n    \"eventtype\": \"Magenic Master\",\r\n    \"startdate\": \"2021-10-18T18:00:00\",\r\n    \"enddate\": \"2021-10-18T13:00:00\"\r\n}"
+						},
+						"url": {
+							"raw": "{{URL_Attendance}}/api/events",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"events"
+							]
+						},
+						"description": "- Accept Event object\r\n- Event start date should be < event end date\r\n- Required fields validation check\r\n"
+					},
+					"response": []
+				},
+				{
+					"name": "Update existing Events",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "JSON Type",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n            \"_id\": \"60672fe99446402698346a52\",\r\n            \"eventname\": \"Toyota yearly car show\",\r\n            \"eventtype\": \"carshow\",\r\n            \"startdate\": \"2021-05-18T10:00:00.000Z\",\r\n            \"enddate\": \"2021-07-18T05:00:00.000Z\"\r\n}"
+						},
+						"url": {
+							"raw": "{{URL_Attendance}}/api/events",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"events"
+							]
+						},
+						"description": "- Accept Event object\r\n- Event start date should be < event end date\r\n- Required fields validation check\r\n"
+					},
+					"response": []
+				},
+				{
+					"name": "Return an event by EventId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_Attendance}}/api/events/606969f50f526025645b2c18",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"events",
+								"606969f50f526025645b2c18"
+							]
+						},
+						"description": "o\tReturn an event by EventId\r\no\tReturn Event object with array of MemberAttendance object"
+					},
+					"response": []
+				},
+				{
+					"name": "Return an excel file of events and members",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_Attendance}}/api/events/export?id=606969f50f526025645b2c18",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"events",
+								"export"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "606969f50f526025645b2c18"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Search events by Event Name, DateTime Start, DateTime End",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_Attendance}}/api/events/search?name=Test2&datestart=2021-04-18T18:00:00&dateend=2021-04-18T13:00:00",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"events",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Test2"
+								},
+								{
+									"key": "datestart",
+									"value": "2021-04-18T18:00:00"
+								},
+								{
+									"key": "dateend",
+									"value": "2021-04-18T13:00:00"
+								}
+							]
+						},
+						"description": "-Search events by Event Name, DateTime Start, DateTime End\r\n-All fields are optional\r\n-Will return an error if no search criteria provided"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete an Event",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "JSON Type",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"_id\": \"606ac0bdeaec914c581beb48\"\r\n}"
+						},
+						"url": {
+							"raw": "{{URL_Attendance}}/api/events",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"events"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Events endpoint"
+		},
+		{
+			"name": "members",
+			"item": [
+				{
+					"name": "Get All Members",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_Attendance}}/api/members",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"members"
+							]
+						},
+						"description": "o\tReturn all Members"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Member by Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_Attendance}}/api/members/6069934c64b6d91fecf92519",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"members",
+								"6069934c64b6d91fecf92519"
+							]
+						},
+						"description": "- Return a member by MemberId\r\n- Return Member object with array of EventAttendance object\r\n - EventAttendance\r\n        •\tEventName\r\n        •\tTimeIn\r\n        •\tTimeOut\r\n "
+					},
+					"response": []
+				},
+				{
+					"name": "Update Member",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "JSON Type",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"_id\": \"60680e0b6a4e9d1918cf7ab9\", //member Id\r\n    \"name\": \"Mark Nayat\",\r\n    \"joinedate\": \"\",\r\n    \"status\": \"inactive\"\r\n}"
+						},
+						"url": {
+							"raw": "{{URL_Attendance}}/api/members",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"members"
+							]
+						},
+						"description": "- Accept member object\r\n- Required fields validation check"
+					},
+					"response": []
+				},
+				{
+					"name": "Create new member",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "JSON Type",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"John Doe\",\r\n    \"joinedate\": \"\",\r\n    \"status\": \"active\"\r\n}"
+						},
+						"url": {
+							"raw": "{{URL_Attendance}}/api/members",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"members"
+							]
+						},
+						"description": "- Accept member object\r\n- Required fields validation check\r\n"
+					},
+					"response": []
+				},
+				{
+					"name": "Search Member by name and status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL_Attendance}}/api/members/search?name=Mark Nayat&status=active",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"members",
+								"search"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Mark Nayat"
+								},
+								{
+									"key": "status",
+									"value": "active"
+								}
+							]
+						},
+						"description": "- Search member by Name and status"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Member",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "JSON Type",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n     \"_id\": \"606aa081dae4ca288c0d47ee\" //member Id\r\n}"
+						},
+						"url": {
+							"raw": "{{URL_Attendance}}/api/members",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"members"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Memmbers Endpoint",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "attendance",
+			"item": [
+				{
+					"name": "Post new attendance",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"description": "JSON Type",
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "JSON Type",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"event\": \"606ac00138144c219c97bc3b\",\r\n    \"members\": \"606abf26d892de3d80401d87\",\r\n    \"timein\": \"2021-10-01T18:00:00\",\r\n    \"timeout\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL_Attendance}}/api/attendance",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"attendance"
+							]
+						},
+						"description": "Parameters:\r\nevent = eventId\r\nmembers = memberId\r\ntimein = date\r\ntime out = date\r\n\r\no\tAccept Attendance object\r\no\tTime-in date should be < Time-out date\r\no\tRequired fields validation check\r\n"
+					},
+					"response": []
+				},
+				{
+					"name": "Update attendance",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"description": "JSON Type",
+								"key": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": "JSON Type",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{ \r\n    \"_id\": \"606aa1b3031a971a54c9ae31\", // attendance id\r\n    \"event\": \"606962c88691aa45785cbd03\", // eventid \r\n    \"members\": \"606962e98691aa45785cbd04\", // memberId\r\n    \"timein\": \"2021-04-18T18:00:00\",\r\n    \"timeout\":\"\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL_Attendance}}/api/attendance",
+							"host": [
+								"{{URL_Attendance}}"
+							],
+							"path": [
+								"api",
+								"attendance"
+							]
+						},
+						"description": "Parameters:\r\nattendanceid = id\r\nevent = eventId\r\nmembers = memberId\r\ntimein = date\r\ntime out = date\r\n\r\no\tAccept Attendance object\r\no\tTime-in date should be < Time-out date\r\no\tRequired fields validation check\r\n"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "dbConnection",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "MONGO_URI=mongodb+srv://attendanceMon:12345@attendancemonitoring.qi5j7.mongodb.net/devAttendanceMonitoring?retryWrites=true&w=majority"
+				},
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
