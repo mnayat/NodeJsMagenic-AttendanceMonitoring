@@ -1,11 +1,15 @@
 # Attendance Monitoring
 
 > Backend API for Attendance Monitoring
+## Database 
+> mongodb
 
 ## Npm use
-exceljs
-colors
-dateformat
+> exceljs
+> colors
+> dateformat
+> mongoosejs
+> express
 ## Postman Collection
 Postman collection
 URL
