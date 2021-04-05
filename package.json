@@ -10,11 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "circular-json": "^0.5.9",
     "colors": "^1.4.0",
     "dateformat": "^4.5.1",
     "dotenv": "^8.2.0",
-    "excel4node": "^1.7.2",
     "exceljs": "^4.2.1",
     "express": "^4.17.1",
     "mongoose": "^5.12.3"
