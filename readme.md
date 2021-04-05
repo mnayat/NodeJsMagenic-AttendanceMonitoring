@@ -1,8 +1,8 @@
-# DevCamper API
+# Attendance Monitoring
 
 > Backend API for Attendance Monitoring
 
-## Usage
+## Postman Collection
 Postman collection
 URL
 https://documenter.getpostman.com/view/15008591/TzCQb6Rm
@@ -25,12 +25,3 @@ npm run dev
 
 ```
 
-## Demo
-
-The API is live at [devcamper.io](https://devcamper.io)
-
-Extensive documentation with examples [here](https://documenter.getpostman.com/view/8923145/SVtVVTzd?version=latest)
-
-- Version: 1.0.0
-- License: MIT
-- Author: Brad Traversy
